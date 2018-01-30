@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <!-- {{.CozyClientJS}} sera remplacé par la balise HTML injectant le script de la bibliothèque cozy-client-js. -->
+  <title>eGreen</title>
+</head>
+<body>
+  <div role="application" data-cozy-token="{{.Token}}" data-cozy-domain="{{.Domain}}" class="container-fluid" data-cozy-app-name="{{.AppName}}" >
+  <!--
+{{.Token}} sera remplacé par le jeton permettant d’identifier votre application auprès du serveur ; data-cozy-icon-path="{{.IconPath}}" >
+{{.Domain}} sera remplacé par l’URL du point d’entrée de l’API ;
+{{.Locale}} sera remplacé par la langue de l’instance ;
+{{.AppName}} sera remplacé par le nom de l’application ;
+{{.IconPath}} sera replacé par la balise HTML permettant d’afficher la /favicon/ de l’application ; -->
+  </div>
+  <script src='/login_success.js' ></script>
+</body>
+</html>

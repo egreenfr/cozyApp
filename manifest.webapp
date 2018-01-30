@@ -1,0 +1,39 @@
+{
+  "name": "eGreen",
+  "slug": "app",
+  "icon": "/egreen_logo.png",
+  "description": "PRENEZ PLAISIR À RÉDUIRE VOS CONSOMMATIONS",
+  "developer": {
+    "name": "Javid",
+    "url": "https://app.egreen.fr"
+  },
+  "default_locale": "fr",
+  "routes": {
+    "/": {
+      "folder": "/",
+      "index": "index.html",
+      "public": false
+    }
+  },
+  "version": "3.0.0",
+  "licence": "AGPL-3.0",
+  "permissions": {
+    "settings": {
+      "description": "Required by the cozy-bar to display Claudy and know which applications are coming soon",
+      "type": "io.cozy.settings",
+      "verbs": [
+        "GET"
+      ]
+    },
+    "apps": {
+      "description": "Required by the cozy-bar to display the icons of the apps",
+      "type": "io.cozy.apps",
+      "verbs": ["GET"]
+    },
+    "client": {
+      "description": "Try data request and add synthetics datasets.",
+      "type": "org.fing.mesinfos.client",
+      "verbs": ["GET"]
+    }
+  }
+}
