@@ -17,7 +17,7 @@
     "/login_success.html": {
       "folder": "/",
       "index": "login_success.html",
-      "public": false
+      "public": true
     }
   },
   "version": "3.0.0",
