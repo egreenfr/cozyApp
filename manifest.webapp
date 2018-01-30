@@ -13,6 +13,11 @@
       "folder": "/",
       "index": "index.html",
       "public": false
+    },
+    "/login_success.html": {
+      "folder": "/",
+      "index": "login_success.html",
+      "public": false
     }
   },
   "version": "3.0.0",
