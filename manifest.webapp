@@ -14,7 +14,7 @@
       "index": "index.html",
       "public": false
     },
-    "/login_success.html": {
+    "/login_success": {
       "folder": "/",
       "index": "login_success.html",
       "public": true
