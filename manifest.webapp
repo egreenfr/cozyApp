@@ -3,6 +3,7 @@
   "slug": "app",
   "icon": "/egreen_logo.png",
   "description": "PRENEZ PLAISIR À RÉDUIRE VOS CONSOMMATIONS",
+  "category": "partners",
   "developer": {
     "name": "Javid",
     "url": "https://app.egreen.fr"
